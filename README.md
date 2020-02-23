@@ -21,6 +21,7 @@ Run the API server on its own with the command:
 
 ```bash
 npm run server
+```
 
 Run both the applications together with the command:
 
