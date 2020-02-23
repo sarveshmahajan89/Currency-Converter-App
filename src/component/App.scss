@@ -52,6 +52,11 @@
                             &:focus {
                                 border-radius: 10px 10px 0px 0px;
                             }
+                            .Select-clear-zone {
+                                .Select-clear{
+                                    display: none;
+                                }
+                            }
                         }
                         .Select-menu-outer {
                             .Select-menu {
