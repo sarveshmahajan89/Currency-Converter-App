@@ -1,0 +1,226 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+@import "../../node_modules/font-awesome/scss/font-awesome";
+@import "../../node_modules/react-select/scss/select";
+@import "../../node_modules/react-select/scss/default";
+
+@keyframes ticker {
+    0% { transform: translate3d(0, 0, 0); }
+    100% { transform: translate3d(-100%, 0, 0); }
+}
+
+.icon-image a img {
+    width: 50px;
+    height: 50px;
+}
+
+.masthead {
+    .container {
+        a {
+            cursor: pointer;
+            color: #fff;
+        }
+        .content {
+            .heading {
+                margin: 15px;
+                text-align: left;
+            }
+            .conversion-container {
+                width: 100%;
+                //min-height: 300px;
+                background-color: rgba(0, 34, 114, 0.65);
+                border-radius: 15px;
+                padding: 0px 40px;
+
+                .container-fields {
+                    float:left;
+                    margin: 15px;
+
+                    .Select {
+                        padding-left: 0px;
+                        .Select-control {
+                            height: 50px;
+                            width: 250px;
+                            border-radius: 10px;
+                            .Select-value {
+                                top: 5px;
+                            }
+                            .Select-placeholder {
+                                top: 5px;
+                            }
+                            &:focus {
+                                border-radius: 10px 10px 0px 0px;
+                            }
+                        }
+                        .Select-menu-outer {
+                            .Select-menu {
+                                max-height: 255px;
+                            }
+                        }
+                        &:focus {
+                            border-radius: 10px 10px 0px 0px;
+                        }
+                    }
+
+                    .label-input {
+                        display: block;
+                    }
+                    .swap-button-field {
+                        color: #fff;
+                        border: none;
+                        width: 30px;
+                        height: 30px;
+                        text-align: center;
+                        background: transparent;
+                        transform: translate(-6%, 125%);
+                        cursor: pointer;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                    .submit-button-field {
+                        color: #fff;
+                        border: none;
+                        width: 30px;
+                        height: 30px;
+                        text-align: center;
+                        background: transparent;
+                        transform: translate(-20%, 100%);
+                        cursor: pointer;
+                        &:focus {
+                            outline: none;
+                        }
+                    }
+                    .hidden-history{
+                        transform: translate(100%, 100%);
+                    }
+                    .input-field {
+                        color: rgb(0, 34, 114);
+                        font-size: 1.2rem;
+                        height: 50px;
+                        padding-left: 20px;
+                        width: 250px;
+                        background: rgb(255, 255, 255);
+                        border-width: 0px;
+                        border-style: initial;
+                        border-color: initial;
+                        border-image: initial;
+                        border-radius: 10px;
+
+                        &:focus {
+                            border-width: 1px;
+                            border-style: solid;
+                            border-color: #2684FF;
+                            border-image: initial;
+                            outline: none;
+                        }
+                    }
+                    .select-field {
+                        color: rgb(0, 34, 114);
+                        font-size: 1.2rem;
+                        height: 50px;
+                        width: 250px;
+                        border-width: 0px;
+                        border-style: initial;
+                        border-color: initial;
+                        border-image: initial;
+                        border-radius: 4px;
+                    }
+                    .currency-field {
+                        padding-left: 40px;
+                        padding-right: 15px;
+                    }
+
+                }
+                .result-container {
+                    float: none;
+                    margin: auto;
+                    font-size: 2.5rem;
+                    padding: 20px;
+                    ul {
+                        text-align: left;
+                        .history-list {
+                            font-size: 1.5rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.select-currency-wrapper {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    flex: 1 1 0%;
+
+    img{
+        display: inline-block;
+        height: 30px;
+        width: 30px;
+        margin: 0px 10px 0px 0px;
+    }
+
+    .select-name {
+
+        display: inline-block;
+        line-height: 1.3;
+        .select-currency-code {
+            display: block;
+            font-size: 1.3rem;
+            font-weight: 900;
+            margin-bottom: -3px;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+        .select-currency-name {
+            display: block;
+            font-size: 1.1rem;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            overflow: hidden;
+            text-align: left;
+        }
+    }
+}
+
+@media (max-width: 1000px) {
+    .masthead {
+        .container {
+            .content {
+                .conversion-container {
+                    width: 100%;
+                    .container-fields {
+                        width: 100%;
+                        .Select {
+                            .Select-control {
+                            }
+                            .Select-menu-outer {
+                                .Select-menu {
+                                    max-height: 198px;
+                                }
+                            }
+                        }
+
+                        .swap-button-field {
+                            transform: translate(-6%, 0%);
+                        }
+                        .submit-button-field {
+                            transform: translate(-6%, -25%);
+                        }
+                        .hidden-history {
+                        }
+                        .input-field {
+
+                        }
+                        .select-field {
+                            margin: auto;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,307 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navigation Navigation renders correctly 1`] = `<Navigation />`;
+
+exports[`Navigation should render Navigation correctly with shallow 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <React.Fragment>
+    <nav
+      className="navbar navbar-expand-lg navbar-light fixed-top"
+      id="mainNav"
+    >
+      <div
+        className="container"
+      >
+        <span
+          className="icon-image"
+        >
+          <ForwardRef
+            className="navbar-brand js-scroll-trigger"
+            to="/"
+          >
+            <img
+              alt="icon"
+              id="icon"
+              src="./images/logo.png"
+            />
+             Currency Converter
+          </ForwardRef>
+        </span>
+        <button
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          className="navbar-toggler navbar-toggler-right"
+          data-target="#navbarResponsive"
+          data-toggle="collapse"
+          onClick={[Function]}
+          type="button"
+        >
+          Menu
+          <i
+            className="fa fa-bars"
+          />
+        </button>
+        <div
+          className="collapse navbar-collapse"
+          id="navbarResponsive"
+        >
+          <ul
+            className="navbar-nav ml-auto"
+          >
+            <li
+              className="nav-item"
+            >
+              <ForwardRef
+                className="nav-link js-scroll-trigger"
+                to="/"
+              >
+                Home
+              </ForwardRef>
+            </li>
+            <li
+              className="nav-item"
+            >
+              <ForwardRef
+                className="nav-link js-scroll-trigger"
+                to="/about"
+              >
+                About
+              </ForwardRef>
+            </li>
+            <li
+              className="nav-item"
+            >
+              <ForwardRef
+                className="nav-link js-scroll-trigger"
+                to="/contact"
+              >
+                Contact
+              </ForwardRef>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </React.Fragment>,
+  "nodes": Array [
+    <React.Fragment>
+      <nav
+        className="navbar navbar-expand-lg navbar-light fixed-top"
+        id="mainNav"
+      >
+        <div
+          className="container"
+        >
+          <span
+            className="icon-image"
+          >
+            <ForwardRef
+              className="navbar-brand js-scroll-trigger"
+              to="/"
+            >
+              <img
+                alt="icon"
+                id="icon"
+                src="./images/logo.png"
+              />
+               Currency Converter
+            </ForwardRef>
+          </span>
+          <button
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler navbar-toggler-right"
+            data-target="#navbarResponsive"
+            data-toggle="collapse"
+            onClick={[Function]}
+            type="button"
+          >
+            Menu
+            <i
+              className="fa fa-bars"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse"
+            id="navbarResponsive"
+          >
+            <ul
+              className="navbar-nav ml-auto"
+            >
+              <li
+                className="nav-item"
+              >
+                <ForwardRef
+                  className="nav-link js-scroll-trigger"
+                  to="/"
+                >
+                  Home
+                </ForwardRef>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <ForwardRef
+                  className="nav-link js-scroll-trigger"
+                  to="/about"
+                >
+                  About
+                </ForwardRef>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <ForwardRef
+                  className="nav-link js-scroll-trigger"
+                  to="/contact"
+                >
+                  Contact
+                </ForwardRef>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </React.Fragment>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_didScheduleRenderPhaseUpdate": false,
+    "_dispatcher": Object {
+      "readContext": [Function],
+      "useCallback": [Function],
+      "useContext": [Function],
+      "useDebugValue": [Function],
+      "useDeferredValue": [Function],
+      "useEffect": [Function],
+      "useImperativeHandle": [Function],
+      "useLayoutEffect": [Function],
+      "useMemo": [Function],
+      "useReducer": [Function],
+      "useRef": [Function],
+      "useResponder": [Function],
+      "useState": [Function],
+      "useTransition": [Function],
+    },
+    "_element": <Navigation />,
+    "_firstWorkInProgressHook": null,
+    "_forcedUpdate": false,
+    "_instance": Navigation {
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": Object {
+        "showMenuOption": false,
+      },
+      "updateMenuOption": [Function],
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_isReRender": false,
+    "_newState": null,
+    "_numberOfReRenders": 0,
+    "_renderPhaseUpdates": null,
+    "_rendered": <React.Fragment>
+      <nav
+        className="navbar navbar-expand-lg navbar-light fixed-top"
+        id="mainNav"
+      >
+        <div
+          className="container"
+        >
+          <span
+            className="icon-image"
+          >
+            <ForwardRef
+              className="navbar-brand js-scroll-trigger"
+              to="/"
+            >
+              <img
+                alt="icon"
+                id="icon"
+                src="./images/logo.png"
+              />
+               Currency Converter
+            </ForwardRef>
+          </span>
+          <button
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            className="navbar-toggler navbar-toggler-right"
+            data-target="#navbarResponsive"
+            data-toggle="collapse"
+            onClick={[Function]}
+            type="button"
+          >
+            Menu
+            <i
+              className="fa fa-bars"
+            />
+          </button>
+          <div
+            className="collapse navbar-collapse"
+            id="navbarResponsive"
+          >
+            <ul
+              className="navbar-nav ml-auto"
+            >
+              <li
+                className="nav-item"
+              >
+                <ForwardRef
+                  className="nav-link js-scroll-trigger"
+                  to="/"
+                >
+                  Home
+                </ForwardRef>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <ForwardRef
+                  className="nav-link js-scroll-trigger"
+                  to="/about"
+                >
+                  About
+                </ForwardRef>
+              </li>
+              <li
+                className="nav-item"
+              >
+                <ForwardRef
+                  className="nav-link js-scroll-trigger"
+                  to="/contact"
+                >
+                  Contact
+                </ForwardRef>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </React.Fragment>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "_workInProgressHook": null,
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Navigation />,
+}
+`;

@@ -1,0 +1,190 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer Footer renders correctly 1`] = `<Footer />`;
+
+exports[`Footer should render Footer correctly with shallow 1`] = `
+ShallowWrapper {
+  "complexSelector": ComplexSelector {
+    "buildPredicate": [Function],
+    "childrenOfNode": [Function],
+    "findWhereUnwrapped": [Function],
+  },
+  "length": 1,
+  "node": <footer
+    className="text-center"
+  >
+    <div
+      className="footer-above"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="footer-col col-md-12"
+          >
+            <h3>
+              About Currency Converter App
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="footer-below"
+    >
+      <div
+        className="container"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-lg-12"
+          >
+            <span>
+              Copyright © Currency Converter App 2020
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>,
+  "nodes": Array [
+    <footer
+      className="text-center"
+    >
+      <div
+        className="footer-above"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="footer-col col-md-12"
+            >
+              <h3>
+                About Currency Converter App
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="footer-below"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-lg-12"
+            >
+              <span>
+                Copyright © Currency Converter App 2020
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>,
+  ],
+  "options": Object {},
+  "renderer": ReactShallowRenderer {
+    "_context": Object {},
+    "_didScheduleRenderPhaseUpdate": false,
+    "_dispatcher": Object {
+      "readContext": [Function],
+      "useCallback": [Function],
+      "useContext": [Function],
+      "useDebugValue": [Function],
+      "useDeferredValue": [Function],
+      "useEffect": [Function],
+      "useImperativeHandle": [Function],
+      "useLayoutEffect": [Function],
+      "useMemo": [Function],
+      "useReducer": [Function],
+      "useRef": [Function],
+      "useResponder": [Function],
+      "useState": [Function],
+      "useTransition": [Function],
+    },
+    "_element": <Footer />,
+    "_firstWorkInProgressHook": null,
+    "_forcedUpdate": false,
+    "_instance": Footer {
+      "context": Object {},
+      "props": Object {},
+      "refs": Object {},
+      "state": null,
+      "updater": Updater {
+        "_callbacks": Array [],
+        "_renderer": [Circular],
+      },
+    },
+    "_isReRender": false,
+    "_newState": null,
+    "_numberOfReRenders": 0,
+    "_renderPhaseUpdates": null,
+    "_rendered": <footer
+      className="text-center"
+    >
+      <div
+        className="footer-above"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="footer-col col-md-12"
+            >
+              <h3>
+                About Currency Converter App
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="footer-below"
+      >
+        <div
+          className="container"
+        >
+          <div
+            className="row"
+          >
+            <div
+              className="col-lg-12"
+            >
+              <span>
+                Copyright © Currency Converter App 2020
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>,
+    "_rendering": false,
+    "_updater": Updater {
+      "_callbacks": Array [],
+      "_renderer": [Circular],
+    },
+    "_workInProgressHook": null,
+    "getRenderOutput": [Function],
+    "render": [Function],
+  },
+  "root": [Circular],
+  "unrendered": <Footer />,
+}
+`;
